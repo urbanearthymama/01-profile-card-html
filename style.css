@@ -1,0 +1,57 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Style the profile card container */
+.card {
+  background: #fff; /* White background for the card */
+  border: 2px solid #e0e0e0; /* Light border */
+  border-radius: 12px; /* Rounded corners */
+  padding: 32px 24px; /* Space inside the card */
+  max-width: 600px; /* Limit card width */
+  margin: 40px auto; /* Center card with margin */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* Subtle shadow */
+}
+
+/* Profile image styles */
+.card img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Main heading styles */
+h1 {
+  font-size: 2.5em;
+  color: #003366; /* dark blue */
+}
+
+/* Subheading styles */
+h2 {
+  font-size: 1.8em;
+  color: slategray
+}
+
+/* Paragraph styles */
+p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* Style the list of favorite websites */
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.card ul li {
+  margin: 10px 0;
+}
